@@ -1,8 +1,23 @@
 name: "my-website"
+output_dir: "."
 navbar:
-  title: "My Website"
+  title: "Alan T. Arnholt"
   left:
-    - text: "Home"
-      href: index.html
     - text: "About"
       href: about.html
+    - text: "Software"
+      href: software.html
+    - text: "For Students"
+      href: for-students.html
+    - text: "Scholarship"
+      href: scholarship.html
+    - text: "Teaching"
+      href: teaching.html
+output:
+  html_document:
+    theme: cosmo
+    highlight: textmate
+    include:
+      after_body: footer.html
+    css: styles.css  
+         

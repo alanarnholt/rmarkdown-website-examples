@@ -3,8 +3,6 @@ output_dir: "."
 navbar:
   title: "Alan T. Arnholt"
   left:
-    - text: "Home"
-      href: index.html
     - text: "About"
       href: about.html
     - text: "Software"
@@ -15,12 +13,14 @@ navbar:
       href: scholarship.html
     - text: "Teaching"
       href: teaching.html
-right:
-  - icon: fa-github fa-lg
-    href: https://github.com/alanarnholt      
+  right:
+    - icon: fa-github fa-lg
+      href: https://github.com/alanarnholt/rmarkdown-website-examples/         
 output:
   html_document:
+    theme: cosmo
     highlight: textmate
     include:
       after_body: footer.html
-    css: styles.css      
+    css: styles.css  
+      

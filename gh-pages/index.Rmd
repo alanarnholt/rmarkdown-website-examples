@@ -1,5 +1,0 @@
----
-title: ""
----
-
-My research and teaching interests include computational statistics and reproducible research.
